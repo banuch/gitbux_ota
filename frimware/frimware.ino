@@ -6,7 +6,7 @@
 const char* ssid = "Sahasra"; // put your wifi name
 const char* password = "wintek@143"; // put your wifi password
 
-const char* firmwareUrl = "https://github.com/ittipu/esp32_firmware/releases/download/esp32_firmware/firmware.ino.bin";
+const char* firmwareUrl = "https://github.com/banuch/gitbux_ota/blob/master/frimware/build/esp32.esp32.esp32/frimware.ino.bin";
 const char* versionUrl = "https://raw.githubusercontent.com/ittipu/esp32_firmware/refs/heads/main/version.txt";
 
 // Current firmware version
