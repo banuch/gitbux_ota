@@ -10,7 +10,7 @@ const char* firmwareUrl = "https://github.com/banuch/gitbux_ota/releases/downloa
 const char* versionUrl = "https://raw.githubusercontent.com/banuch/gitbux_ota/refs/heads/master/frimware/version.txt";
 
 // Current firmware version
-const char* currentFirmwareVersion = "1.0.2";
+const char* currentFirmwareVersion = "1.0.4";
 const unsigned long updateCheckInterval = 5 * 60 * 1000;  // 5 minutes in milliseconds
 unsigned long lastUpdateCheck = 0;
 
