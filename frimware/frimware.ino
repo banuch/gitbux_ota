@@ -6,11 +6,11 @@
 const char* ssid = "Sahasra"; // put your wifi name
 const char* password = "wintek@143"; // put your wifi password
 
-const char* firmwareUrl = "https://github.com/banuch/gitbux_ota/blob/master/frimware/build/esp32.esp32.esp32/frimware.ino.bin";
+const char* firmwareUrl = "https://github.com/banuch/gitbux_ota/releases/download/esp32_firmware/frimware.ino.bin";
 const char* versionUrl = "https://raw.githubusercontent.com/banuch/gitbux_ota/refs/heads/master/frimware/version.txt";
 
 // Current firmware version
-const char* currentFirmwareVersion = "1.0.1";
+const char* currentFirmwareVersion = "1.0.2";
 const unsigned long updateCheckInterval = 5 * 60 * 1000;  // 5 minutes in milliseconds
 unsigned long lastUpdateCheck = 0;
 
